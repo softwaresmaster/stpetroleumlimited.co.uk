@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ST Petroleum Limited</title>
+    <meta
+        name="description"
+        content="ST Petroleum Limited - Your trusted fuel and convenience store in Cornwall."
+    />
+    <meta
+        name="keywords"
+        content="Gulf, ST Petroleum Limited, Fuel, Convenience Store, Cornwall, Calor Gas, ATM, Off License"
+    />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <style>
+        /* Additional styles for Bootstrap integration */
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+        .topbar-socials a {
+            margin-right: 15px;
+            text-decoration: none;
+        }
+        .hero iframe {
+            width: 100%;
+            height: 400px;
+        }
+        .services-list .service {
+            margin-bottom: 20px;
+        }
+        .logo-slider .slider-track {
+            display: flex;
+            gap: 40px;
+            width: max-content;
+            animation: slide-right 20s linear infinite;
+        }
+        @keyframes slide-right {
+            0% {
+                transform: translateX(-50%);
+            }
+            100% {
+                transform: translateX(0%);
+            }
+        }
+        .logo-slider:hover .slider-track {
+            animation-play-state: paused;
+        }
+        .footer-column {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Topbar -->
+    <div class="topbar bg-dark text-white py-2">
+        <div class="container">
+            <div class="d-flex justify-content-center justify-content-md-between flex-wrap">
+                <span class="topbar-socials d-flex flex-wrap justify-content-center">
+                    <a class="text-white me-3" href="mailto:info@stpetroleumltd.co.uk">
+                        <i class="fa-solid fa-envelope me-1"></i>
+                        info@stpetroleumltd.co.uk
+                    </a>
+                    <a class="text-white me-3" href="tel:+447722139777">
+                        <i class="fa-solid fa-phone-volume me-1"></i>
+                        +44 07722139777
+                    </a>
+                    <a
+                        class="text-white me-3"
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Facebook"
+                    >
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a
+                        class="text-white me-3"
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram"
+                    >
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a
+                        class="text-white me-3"
+                        href="https://www.linkedin.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn"
+                    >
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a
+                        class="text-white me-3"
+                        href="https://twitter.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Twitter"
+                    >
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img
+                    src="images/logo.svg"
+                    alt="Gulf Logo"
+                    style="height: 40px; margin-right: 10px"
+                />
+                <span style="font-size: 24px; font-weight: bold; color: #20274c;">
+                    ST Petroleum Limited
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container-fluid p-0">
+            <div class="ratio ratio-16x9">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20203.258516887778!2d-4.5771431!3d50.7309339!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486c786df1a6421b%3A0xc897ea0d729e72ce!2sGulf!5e0!3m2!1sen!2sin!4v1760192415777!5m2!1sen!2sin"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info py-1">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-md-8 mb-4 mb-md-0">
+                    <h1 class="d-flex align-items-center mb-3">
+                        <img
+                            src="https://static.cdnlogo.com/logos/g/77/gulf-oil-1.svg"
+                            alt="Gulf Oil UK Logo"
+                            style="height: 48px; margin-right: 10px"
+                        />
+                        - ST Petroleum Limited
+                    </h1>
+                    <p class="text-muted">
+                        <small>
+                            Wainhouse Corner Garage, Wainhouse Corner, Bude, Cornwall, EX23 0AZ.
+                        </small>
+                    </p>
+                    <div class="buttons mt-4">
+                        <a href="tel:+447722139777" class="btn btn-primary me-2">
+                            <i class="fa-solid fa-phone-volume me-1"></i>
+                            Call Us
+                        </a>
+                        <a href="https://maps.app.goo.gl/VyEotLWZP5gzrRX36" target="_blank" class="btn btn-outline-primary">
+                            <i class="fa-solid fa-location-dot me-1"></i>
+                            Get Directions
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-light rounded p-4">
+                        <h2 class="h4 mb-3" style="color: #20274c">Opening hours</h2>
+                        <div class="d-flex align-items-center mb-3" style="color: #20274c; font-weight: bold;">
+                            <span class="opening-hours-ping" aria-hidden="true">
+                                <span class="opening-hours__ping--outer animate-ping"></span>
+                                <span class="opening-hours__ping--inner"></span>
+                            </span>
+                            Open Now
+                        </div>
+                        <div>
+                            <strong>Mon-Fri:</strong>
+                            6AM - 11PM
+                            <br />
+                            <strong>Sat:</strong>
+                            6AM - 11PM
+                            <br />
+                            <strong>Sun:</strong>
+                            8AM - 10PM
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services py-5 bg-light">
+        <div class="container">
+            <h2 class="services-title mb-4">Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="service card h-100 text-center p-3">
+                        <div class="card-body">
+                            <svg
+                                version="1.1"
+                                id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg"
+                                x="0"
+                                y="0"
+                                viewBox="0 0 22 22"
+                                xml:space="preserve"
+                                width="40"
+                                height="40"
+                                class="mb-3"
+                            >
+                                <path
+                                    d="M16.9 11c0-1.8-.9-3.5-2.2-4.6-.2-.2-.6-.5-.6-1.2V1.4c-.7-.2-1.4-.4-2.2-.4v5.4c0 1 .5 1.5.8 1.7 1 .6 1.7 1.7 1.7 2.9 0 1.8-1.5 3.3-3.3 3.3-1.8 0-3.3-1.5-3.3-3.3 0-1.2.7-2.3 1.7-2.9.3-.1.8-.6.8-1.7V1c-.9.1-1.6.2-2.3.4v3.8c0 .7-.4 1-.6 1.2C6 7.5 5.2 9.1 5.2 11c0 3.2 2.6 5.9 5.9 5.9 3.2-.1 5.8-2.7 5.8-5.9m4.1 0c0-3.8-2.2-7.2-5.3-8.8v3c1.7 1.4 2.8 3.5 2.8 5.9 0 4.2-3.4 7.5-7.5 7.5-4.2 0-7.5-3.4-7.5-7.5 0-2.4 1.1-4.5 2.8-5.8v-3C3.2 3.8 1 7.1 1 11c0 5.5 4.5 10 10 10 5.6 0 10-4.5 10-10"
+                                    fill="#20274c"
+                                ></path>
+                            </svg>
+                            <h3 class="h5">Calor Gas</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service card h-100 text-center p-3">
+                        <div class="card-body">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20.364 14"
+                                width="40"
+                                height="40"
+                                class="mb-3"
+                            >
+                                <path
+                                    d="M20.364 3.3V2.227A2.227 2.227 0 0018.136 0H2.227A2.227 2.227 0 000 2.227V3.3a.2.2 0 00.2.2h19.965a.2.2 0 00.199-.2zM0 4.973v6.8A2.227 2.227 0 002.227 14h15.909a2.227 2.227 0 002.228-2.227v-6.8a.2.2 0 00-.2-.2H.2a.2.2 0 00-.2.2zm5.091 5.21a.636.636 0 01-.636.636h-.637a.636.636 0 01-.636-.636v-.636a.636.636 0 01.636-.636h.636a.636.636 0 01.636.636z"
+                                    fill="#20274c"
+                                ></path>
+                            </svg>
+                            <h3 class="h5">ATM</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service card h-100 text-center p-3">
+                        <div class="card-body">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 13.5 17.5"
+                                width="40"
+                                height="40"
+                                class="mb-3"
+                            >
+                                <path
+                                    fill="#20274c"
+                                    d="M13.356.186A.562.562 0 0012.938 0H.563a.564.564 0 00-.559.619l1.687 16.875a.563.563 0 00.56.506h9a.561.561 0 00.559-.506L13.497.619a.555.555 0 00-.141-.433zm-1.5 5.527a4.927 4.927 0 01-4.752-.522A5.951 5.951 0 001.513 4.4l-.327-3.275h11.13z"
+                                ></path>
+                            </svg>
+                            <h3 class="h5">Off License</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="services-title mt-5 mb-4">Extras</h2>
+            <div class="logo-slider overflow-hidden">
+                <div class="slider-track">
+                    <div class="slide">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Deliveroo_logo.svg/2560px-Deliveroo_logo.svg.png"
+                            alt="Deliveroo"
+                            class="img-fluid"
+                            style="max-height: 56px;"
+                        />
+                    </div>
+                    <div class="slide">
+                        <img
+                            src="https://images.ctfassets.net/j16ev64qyf6l/528kLUDrUcGK0SvvdYcCok/c69716735876492850cf97776a4abb77/TNL_Master_Logo_2019_RGB_Horizontal_Heritage_Blue_Text.png"
+                            alt="The National Lottery"
+                            class="img-fluid"
+                            style="max-height: 56px;"
+                        />
+                    </div>
+                    <div class="slide">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PayPoint_logo.svg/1200px-PayPoint_logo.svg.png"
+                            alt="Paypoint"
+                            class="img-fluid"
+                            style="max-height: 56px;"
+                        />
+                    </div>
+                    <div class="slide">
+                        <img
+                            src="https://cdn.prod.website-files.com/60414b21f1ffcdbb0d5ad688/63cecf750aa7463091b17adf_5310366-uber-eats-logo-png-and-vector-logo-download-uber-eats-png-3500_3500_preview.png"
+                            alt="Uber Eats"
+                            class="img-fluid"
+                            style="max-height: 56px;"
+                        />
+                    </div>
+                    <div class="slide">
+                        <img
+                            src="https://1000logos.net/wp-content/uploads/2021/12/Just-Eat-logo.png"
+                            alt="Just Eat"
+                            class="img-fluid"
+                            style="max-height: 56px;"
+                        />
+                    </div>
+                    <!-- duplicate slides for seamless loop -->
+                    <div class="slide">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Deliveroo_logo.svg/2560px-Deliveroo_logo.svg.png"
+                            alt="Deliveroo"
+                            class="img-fluid"
+                            style="max-height: 56px;"
+                        />
+                    </div>
+                    <div class="slide">
+                        <img
+                            src="https://images.ctfassets.net/j16ev64qyf6l/528kLUDrUcGK0SvvdYcCok/c69716735876492850cf97776a4abb77/TNL_Master_Logo_2019_RGB_Horizontal_Heritage_Blue_Text.png"
+                            alt="The National Lottery"
+                            class="img-fluid"
+                            style="max-height: 56px;"
+                        />
+                    </div>
+                    <div class="slide">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PayPoint_logo.svg/1200px-PayPoint_logo.svg.png"
+                            alt="Paypoint"
+                            class="img-fluid"
+                            style="max-height: 56px;"
+                        />
+                    </div>
+                    <div class="slide">
+                        <img
+                            src="https://cdn.prod.website-files.com/60414b21f1ffcdbb0d5ad688/63cecf750aa7463091b17adf_5310366-uber-eats-logo-png-and-vector-logo-download-uber-eats-png-3500_3500_preview.png"
+                            alt="Uber Eats"
+                            class="img-fluid"
+                            style="max-height: 56px;"
+                        />
+                    </div>
+                    <div class="slide">
+                        <img
+                            src="https://1000logos.net/wp-content/uploads/2021/12/Just-Eat-logo.png"
+                            alt="Just Eat"
+                            class="img-fluid"
+                            style="max-height: 56px;"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-column">
+                    <img src="images/logo.svg" alt="Gulf Logo" class="logo-svg mb-3" style="width: 120px;" />
+                    <h4>Connect</h4>
+                    <p>Get in touch with our friendly team.</p>
+                    <p>info@stpetroleumltd.co.uk</p>
+                    <p>+44 07722139777</p>
+                </div>
+                <div class="col-md-4 footer-column">
+                    <h4>Company</h4>
+                    <p>ST Petroleum Limited</p>
+                    <p>Trading as: Gulf</p>
+                </div>
+                <div class="col-md-4 footer-column">
+                    <h4>Inquiry</h4>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Enter your name" />
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Submit your inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End Bar -->
+    <div class="end-bar bg-black text-white text-center py-2 small">
+        <div class="container">
+            © 2025. All rights reserved.
+            <a href="privacy.html" class="text-white text-decoration-none">Privacy Policy</a>
+            |
+            <a href="terms.html" class="text-white text-decoration-none">Terms & Conditions</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
