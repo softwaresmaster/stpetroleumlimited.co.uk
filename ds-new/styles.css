@@ -110,7 +110,7 @@ body {
     }
     to {
         transform: translateX(0);
-        opacity: 1;
+        opacity: 100;
     }
 }
 
